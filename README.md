@@ -40,7 +40,7 @@ hence, the obtained result is not realistic and is due to errors in the input da
           |x          |  in |   32|   ap_none  |       x      |    scalar    |
           +-----------+-----+-----+------------+--------------+--------------+
 
-We can see here that the protocol for x (which is the input to the exponent module) has been taged "ap_none" this is due to a wrong data type used. the data type used was not synthesizeable. This led to the simulation errors although the program was verified at C level, it did not have any connetions with its actual hardware counterpart required for synthesis. 
+We can see here that the protocol for x (which is the input to the exponent module) has been tagged "ap_none" this is due to a wrong data type used. the data type used was not synthesizeable. This led to the simulation errors although the program was verified at C level, it did not have any connetions with its actual hardware counterpart required for synthesis. 
 
 # Task left
 
